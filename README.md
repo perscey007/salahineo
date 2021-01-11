@@ -18,7 +18,7 @@
 
 ### :trophy: Github Stats
 
-![Salahineo's github stats](https://github-readme-stats.vercel.app/api?username=salahineo&include_all_commits=true&hide=contribs,prs&show_icons=true&theme=tokyonight)
+![Salahineo's github stats](https://github-readme-stats.vercel.app/api?username=salahineo&include_all_commits=true&hide=contribs,prs&show_icons=true&theme=Gradient)
 
 **If you find my work good, consider giving it a :star: or fork-ing to show some :heart:. It helps me stay on track and be motivated.**
 
