@@ -1076,7 +1076,7 @@ section {
   margin: 0 0 5px 0
 }
 
-#footer .copyright span {
+#footer .copyright span.name {
   color: var(--primary-color);
 }
 
