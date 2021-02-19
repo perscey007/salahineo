@@ -3,18 +3,18 @@
 ### :man_technologist: About
 
 
-- 🎓 &nbsp; I'm studying **computer science** at the faculty of computers and information at Menofiya university.
-- 🌱 &nbsp; I hope to be a successful **Full Stack Web Developer**.
-- 💼 &nbsp; I have learned most of **front-end** technologies, and  I'm currently focusing on learning **back-end** technologies.
-- 🤔 &nbsp; I always like to learn and explore everything about **web development** technologies.
-- ⚡ &nbsp; Fact: The **Expert** in Anything was Once a **Beginner**.
+🎓 &nbsp; I'm studying **computer science** at the faculty of computers and information at Menofiya university.
+🌱 &nbsp; I hope to be a successful **Full Stack Web Developer**.
+💼 &nbsp; I have learned most of **front-end** technologies, and  I'm currently focusing on learning **back-end** technologies.
+🤔 &nbsp; I always like to learn and explore everything about **web development** technologies.
+⚡ &nbsp; Fact: The **Expert** in Anything was Once a **Beginner**.
 
 ### :chart_with_downwards_trend: Roadmap
 
-- :100: &nbsp; I have **learned**: &nbsp; :point_right: &nbsp; **HTML** | **CSS** | **JavaScript** | **Bootstrap** | **jQuery** | **SASS** | **PugJS** | **PHP** | **MySQL**
-- 🌐 &nbsp; I'm currently **learning**: &nbsp; :point_right: &nbsp; **Laravel** | **VueJS**
-- 💻 &nbsp; I **intend to** learn: &nbsp; :point_right: &nbsp;  **NodeJS** | **Mongo DB** | **React JS**
-- :sparkles: &nbsp; Additional **skills**: &nbsp; :point_right: &nbsp; **Web Design in Adobe XD** | **Command-Line & Linux OS** | **Git & Github** | **GulpJS**
+:100: &nbsp; I have **learned**: &nbsp; :point_right: &nbsp; **HTML** | **CSS** | **JavaScript** | **Bootstrap** | **jQuery** | **SASS** | **PugJS** | **PHP** | **MySQL**
+🌐 &nbsp; I'm currently **learning**: &nbsp; :point_right: &nbsp; **Laravel** | **VueJS**
+💻 &nbsp; I **intend to** learn: &nbsp; :point_right: &nbsp;  **NodeJS** | **Mongo DB** | **React JS**
+:sparkles: &nbsp; Additional **skills**: &nbsp; :point_right: &nbsp; **Web Design in Adobe XD** | **Command-Line & Linux OS** | **Git & Github** | **GulpJS**
 
 ### :trophy: Github Stats
 
@@ -28,9 +28,9 @@
 
 ### 📫 Contact
 
-- [Github](https://github.com/salahineo) :octocat:
-- [LinkedIn](https://linkedin.com/in/salahineo) 💼
-- [Facebook](https://facebook.com/salahineo) 😎
-- [Twitter](https://twitter.com/salahineo) 🐤
-- [Website](https://salahineo.github.io/salahineo/) :globe_with_meridians:
-- <a href="mailto:salahineo.work@gmail.com">Email</a> :email:
+:octocat: [Github](https://github.com/salahineo) 
+💼 [LinkedIn](https://linkedin.com/in/salahineo) 
+😎 [Facebook](https://facebook.com/salahineo)
+🐤 [Twitter](https://twitter.com/salahineo) 
+:globe_with_meridians: [Website](https://salahineo.github.io/salahineo/) 
+:email: <a href="mailto:salahineo.work@gmail.com">Email</a> 
