@@ -1,10 +1,10 @@
 ## Hi There. I'm Mohamed Salah <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px">
 
-### :man_technologist: About
+### :man_technologist: About Me
 
 
 - 🎓 &nbsp; I'm studying **computer science** at the faculty of computers and information at Menofiya university.
-- 🌱 &nbsp; I hope to be a successful **Full Stack Web Developer**.
+- 🌱 &nbsp; I hope to be a successful **Full-Stack Web Developer**.
 - 💼 &nbsp; I have learned most of **front-end** technologies, and  I'm currently focusing on learning **back-end** technologies.
 - 🤔 &nbsp; I always like to learn and explore everything about **web development** technologies.
 - ⚡ &nbsp; Fact: The **Expert** in Anything was Once a **Beginner**.
@@ -12,9 +12,9 @@
 ### :chart_with_downwards_trend: Roadmap
 
 - :100: &nbsp; I have **learned**: &nbsp; :point_right: &nbsp; **HTML** | **CSS** | **JavaScript** | **Bootstrap** | **jQuery** | **SASS** | **PugJS** | **PHP** | **MySQL**
-- 🌐 &nbsp; I'm currently **learning**: &nbsp; :point_right: &nbsp; **Laravel** | **VueJS**
-- 💻 &nbsp; I **intend to** learn: &nbsp; :point_right: &nbsp;  **NodeJS** | **Mongo DB** | **React JS**
-- :sparkles: &nbsp; Additional **skills**: &nbsp; :point_right: &nbsp; **Web Design in Adobe XD** | **Command-Line & Linux OS** | **Git & Github** | **GulpJS**
+- 🌐 &nbsp; I'm currently **learning**: &nbsp; :point_right: &nbsp; **ReactJS** | **Laravel**
+- 💻 &nbsp; I **intend to** learn: &nbsp; :point_right: &nbsp;  **NodeJS** | **MongoDB** | **VueJS**
+- :sparkles: &nbsp; Additional **skills**: &nbsp; :point_right: &nbsp; **Command-Line & Linux OS** | **Git & Github** | **GulpJS**
 
 ### :trophy: Github Stats
 
