@@ -3,10 +3,10 @@
 ### :man_technologist: About Me
 
 
-- 🎓 &nbsp; I'm studying **computer science** at the faculty of computers and information at Menofiya university.
+- 🎓 &nbsp; I'm studying **Computer Science** at the faculty of computers and information at Menofiya university.
 - 🌱 &nbsp; I hope to be a successful **Full-Stack Web Developer**.
-- 💼 &nbsp; I have learned most of **front-end** technologies, and  I'm currently focusing on learning **back-end** technologies.
-- 🤔 &nbsp; I always like to learn and explore everything about **web development** technologies.
+- 💼 &nbsp; I have learned most of **Front-End** technologies, and  I'm currently focusing on learning **Back-End** technologies.
+- 🤔 &nbsp; I always like to learn and explore everything about **Web Development** technologies.
 - ⚡ &nbsp; Fact: The **Expert** in Anything was Once a **Beginner**.
 
 ### :chart_with_downwards_trend: Roadmap
