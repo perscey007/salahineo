@@ -1,4 +1,4 @@
-## Hi There. I'm Mohamed Salah <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px">
+## Hi There. I'm Mohamed Salah <img src="https://raw.githubusercontent.com/salahineo/salahineo/main/assets/img/Hi.gif" width="30px">
 
 ### :man_technologist: About Me
 
