@@ -4,22 +4,22 @@
 [data-theme=light] {
   --primary-color: #0563bb;
   --secondary-color: #067ded;
-  --background-color: #fff;
+  --background-color: #ffffff;
   --text-color: #272829;
   --header-main-color: #45505b;
   --header-overlay: rgba(255, 255, 255, 0.8);
-  --header-secondP: #333;
+  --header-secondP: #333333;
   --responsive-menu-border: #e6e9ec;
-  --section-title-before: #ddd;
+  --section-title-before: #dddddd;
   --nav-background: #f0f0f0;
-  --nav-color: #fff;
+  --nav-color: #ffffff;
   --nav-icon-color: #45505b;
   --about-title: #0563bb;
   --about-icon-background: #0563bb;
-  --about-icon-color: #fff;
+  --about-icon-color: #ffffff;
   --progressbar-background: #f2f3f5;
   --resume-year: #f7f8f9;
-  --resume-circle-background: #fff;
+  --resume-circle-background: #ffffff;
   --portfolio-overlay: rgba(255, 255, 255, 0.9);
   --portfolio-overlay-border: #9fa2a5;
   --services-boxshadow: 0px 5px 100px 0px rgba(110, 123, 131, 0.05);
@@ -33,10 +33,11 @@
   --services-icon-teal: #11dbcf;
   --contact-info-background: #eef7ff;
   --contact-info-p: #728394;
-  --contact-form-background: #fff;
+  --contact-form-background: #ffffff;
   --contact-form-color: #272829;
-  --contact-form-border: #ccc;
+  --contact-form-border: #cccccc;
   --contact-form-border-focus: #75bcff;
+  --contact-form-shadow: rgba(6, 125, 237, 0.1);
   --footer-background: #f7f8f9
 }
 
@@ -45,25 +46,25 @@
   --secondary-color: #f0b400;
   --background-color: #06090f;
   --text-color: #f4f4f4;
-  --section-title-before: #ddd;
+  --section-title-before: #dddddd;
   --header-main-color: #f4f4f4;
   --header-overlay: rgba(0, 0, 0, 0.85);
-  --header-secondP: #ccc;
+  --header-secondP: #cccccc;
   --nav-background: #161b22;
-  --nav-color: #fff;
+  --nav-color: #ffffff;
   --nav-icon-color: #ffa600;
-  --responsive-menu-border: #555;
+  --responsive-menu-border: #555555;
   --about-title: #ffa600;
-  --about-icon-background: #333;
+  --about-icon-background: #333333;
   --about-icon-color: #ffa600;
-  --progressbar-background: #333;
+  --progressbar-background: #333333;
   --resume-year: #161b22;
   --resume-circle-background: #0d1117;
   --portfolio-overlay: rgba(0, 0, 0, 0.85);
-  --portfolio-overlay-border: #aaa;
+  --portfolio-overlay-border: #aaaaaa;
   --services-boxshadow: 0 0 15px 0 rgba(110, 123, 131, 0.05);
   --services-hover-boxshadow: 0 0 35px 0 rgba(255, 255, 255, 0.08);
-  --services-svg-fill: #333;
+  --services-svg-fill: #333333;
   --services-icon-blue: #1698ff;
   --services-icon-orange: #ff7821;
   --services-icon-pink: #ff2a88;
@@ -75,7 +76,8 @@
   --contact-form-background: #0d1117;
   --contact-form-color: #f4f4f4;
   --contact-form-border: #3a3a3a;
-  --contact-form-border-focus: #714a00;
+  --contact-form-border-focus: #d28900;
+  --contact-form-shadow: rgba(210, 137, 0, 0.1);
   --footer-background: #0d1117
 }
 
@@ -132,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  color: #fff;
+  color: var(--background-color);
   background: var(--primary-color);
 }
 
@@ -276,17 +278,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .active > a, .nav-menu a:hover, .nav-menu li:hover > a {
-  color: var(--nav-color);
+  color: var(--background-color);
   background: var(--primary-color)
 }
 
 .nav-menu .active > a span, .nav-menu a:hover span, .nav-menu li:hover > a span {
-  color: var(--nav-color)
+  color: var(--background-color)
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a {
   width: 100%;
-  color: var(--nav-color)
+  color: var(--background-color)
 }
 
 .nav-menu a:hover span, .nav-menu li:hover > a span {
@@ -331,7 +333,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/header.jpg) top right no-repeat fixed;
+  background: url(../img/meta/header.jpg) top right no-repeat fixed;
   background-size: cover;
   position: relative
 }
@@ -420,7 +422,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #color-mood i:hover {
   background-color: var(--primary-color);
-  color: #fff
+  color: var(--background-color)
 }
 
 #color-mood i#lightMode {
@@ -533,6 +535,28 @@ section {
   top: 2px;
 }
 
+.about .content h5 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--about-title);
+}
+
+.about .content .hobbies-icons {
+  margin-bottom: 15px;
+}
+
+.about .content .hobbies-icons i {
+  font-size: 24px;
+  padding-right: 10px;
+  position: relative;
+  top: 2px;
+  transition: 0.25s;
+}
+
+.about .content .hobbies-icons i:hover {
+  color: var(--primary-color);
+}
+
 .about .content p:last-child {
   margin-bottom: 0
 }
@@ -589,6 +613,8 @@ section {
 
 /* End Skills */
 
+/* Start Resume */
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -632,7 +658,8 @@ section {
   padding-bottom: 10px
 }
 
-.front-skills ul:first-of-type {
+.front-skills ul:first-of-type,
+.project ul:first-of-type {
   margin-right: 30px
 }
 
@@ -652,10 +679,6 @@ section {
   border: 2px solid var(--primary-color)
 }
 
-.resume .projects {
-
-}
-
 .resume .resumeLink {
   display: inline-block;
   transition: .3s;
@@ -664,6 +687,7 @@ section {
   border-radius: 30px;
   margin: 10px 0 30px;
   color: var(--text-color);
+  font-weight: 600;
 }
 
 .resume .download-resume {
@@ -678,13 +702,14 @@ section {
   text-decoration: none;
   position: relative;
   color: var(--text-color);
+  font-weight: 600;
 }
 
 .resume .download-resume:hover,
 .resume .resumeLink:hover {
   background-color: var(--primary-color);
   text-decoration: none;
-  color: #fff;
+  color: var(--background-color);
 }
 
 .resume .download-resume:focus {
@@ -698,6 +723,8 @@ section {
   left: 22px;
   top: 12px;
 }
+
+/* End Resume */
 
 /* Start Portfolio & Certifications */
 
@@ -742,6 +769,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  margin: auto;
 }
 
 #certifications .portfolio-wrap {
@@ -843,7 +871,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background-color: var(--primary-color);
-  color: #fff
+  color: var(--background-color)
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -915,7 +943,7 @@ section {
 
 .contact .info .address:hover i, .contact .info .email:hover i, .contact .info .phone:hover i {
   background: var(--primary-color);
-  color: #fff
+  color: var(--background-color)
 }
 
 .contact .php-email-form {
@@ -936,7 +964,8 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: var(--contact-form-border-focus)
+  border-color: var(--contact-form-border-focus);
+  box-shadow: 0 0 0 0.2rem var(--contact-form-shadow);
 }
 
 .contact .php-email-form input {
@@ -955,11 +984,12 @@ section {
   transition: .4s;
   border-radius: 50px;
   border: 2px solid var(--primary-color);
+  font-weight: 600;
 }
 
 .contact .php-email-form button[type=submit]:hover {
   background: var(--primary-color);
-  color: #fff;
+  color: var(--background-color);
 }
 
 .contact .php-email-form button[type=submit]:focus {
@@ -994,16 +1024,6 @@ section {
   transition: .3s
 }
 
-.contact .php-email-form input:-ms-input-placeholder, .contact .php-email-form textarea:-ms-input-placeholder {
-  -ms-transition: .3s;
-  transition: .3s
-}
-
-.contact .php-email-form input::-ms-input-placeholder, .contact .php-email-form textarea::-ms-input-placeholder {
-  -ms-transition: .3s;
-  transition: .3s
-}
-
 .contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
   transition: .3s
 }
@@ -1013,14 +1033,6 @@ section {
 }
 
 .contact .php-email-form input:focus::-moz-placeholder, .contact .php-email-form textarea:focus::-moz-placeholder {
-  color: var(--contact-form-background)
-}
-
-.contact .php-email-form input:focus:-ms-input-placeholder, .contact .php-email-form textarea:focus:-ms-input-placeholder {
-  color: var(--contact-form-background)
-}
-
-.contact .php-email-form input:focus::-ms-input-placeholder, .contact .php-email-form textarea:focus::-ms-input-placeholder {
   color: var(--contact-form-background)
 }
 
