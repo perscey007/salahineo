@@ -5,7 +5,7 @@
 
 - 🎓 &nbsp; I'm studying **Computer Science** at the faculty of computers and information at Menofiya university.
 - 🌱 &nbsp; I hope to be a successful **Full-Stack Web Developer**.
-- 💼 &nbsp; I have learned most of **Front-End** technologies, and  I'm currently focusing on learning **Back-End** technologies.
+- 💼 &nbsp; I have learned most of **Native** web technologies, and  I'm currently focusing on learning web **Frameworks**.
 - 🤔 &nbsp; I always like to learn and explore everything about **Web Development** technologies.
 - ⚡ &nbsp; Fact: The **Expert** in Anything was Once a **Beginner**.
 
