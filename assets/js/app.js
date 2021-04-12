@@ -191,6 +191,7 @@ $(function () {
 
   // Lazy Loading For Images, Then IsoTop Filter Trigger
   $(".lazy").lazy({
+    placeholder: "data:image/gif;base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7...",
     effect: "fadeIn",
     effectTime: 2000,
     threshold: 0,
