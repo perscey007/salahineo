@@ -900,13 +900,6 @@ section {
   opacity: 0.9;
 }
 
-img.lazy {
-  /* optional way, set loading as background */
-  background-image: url('../../assets/img/loading.gif');
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-
 /* End Portfolio & Certifications */
 
 /* Start Contact */
