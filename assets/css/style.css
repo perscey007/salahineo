@@ -907,7 +907,11 @@ section {
   background-size: 25px;
 }
 
-/* End Portfolio & Certifications */
+.lazy-parent:hover .portfolio-info {
+  display: none;
+}
+
+  /* End Portfolio & Certifications */
 
 /* Start Contact */
 
