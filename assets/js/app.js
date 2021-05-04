@@ -5,6 +5,8 @@ $(function () {
   // Main Variables
   var
     body = $("body"),
+    html = $("html"),
+    preloader = $("#preloader"),
     moodIco = $("#color-mood i"),
     backToTopArrow = $(".back-to-top"),
     typed = $(".typed"),
@@ -14,7 +16,11 @@ $(function () {
 
   // Check LocalStorage Color Mode & Trigger Preloader
   $(window).on("load", (function () {
-    "light" === localStorage.getItem("MS-Mood") ? (body.attr("data-theme", "light"), moodIco.attr("class", "bx bxs-moon"), $("#aboutImage").attr("src", "assets/img/illustration/light_illustration.svg")) : (body.attr("data-theme", "dark"), moodIco.attr("class", "bx bxs-sun"), $("#aboutImage").attr("src", "assets/img/illustration/dark_illustration.svg")), $("#preloader").length && $("#preloader").delay(500).fadeOut("slow", (function () {
+    "light" === localStorage.getItem("MS-Mood") ?
+      (html.attr("data-theme", "light"), moodIco.attr("class", "bx bxs-moon"), $("#aboutImage").attr("src", "assets/img/illustration/light_illustration.svg"))
+      : (html.attr("data-theme", "dark"), moodIco.attr("class", "bx bxs-sun"), $("#aboutImage").attr("src", "assets/img/illustration/dark_illustration.svg"));
+    // Remove Preloader
+    preloader.length && preloader.delay(500).fadeOut("slow", (function () {
       $(this).remove();
     }));
   }));
@@ -23,7 +29,9 @@ $(function () {
 
   // Toggle Color Mode
   $("#color-mood").on("click", function () {
-    "light" === body.attr("data-theme") ? (body.attr("data-theme", "dark"), moodIco.attr("class", "bx bxs-sun"), $("#aboutImage").attr("src", "assets/img/illustration/dark_illustration.svg"), localStorage.setItem("MS-Mood", "dark")) : (body.attr("data-theme", "light"), moodIco.attr("class", "bx bxs-moon"), $("#aboutImage").attr("src", "assets/img/illustration/light_illustration.svg"), localStorage.setItem("MS-Mood", "light"));
+    "light" === html.attr("data-theme") ?
+      (html.attr("data-theme", "dark"), moodIco.attr("class", "bx bxs-sun"), $("#aboutImage").attr("src", "assets/img/illustration/dark_illustration.svg"), localStorage.setItem("MS-Mood", "dark"))
+      : (html.attr("data-theme", "light"), moodIco.attr("class", "bx bxs-moon"), $("#aboutImage").attr("src", "assets/img/illustration/light_illustration.svg"), localStorage.setItem("MS-Mood", "light"));
   });
 
 
@@ -194,8 +202,8 @@ $(function () {
     effect: "fadeIn",
     effectTime: 2000,
     threshold: 0,
-    beforeLoad: function(element) {
-      element.parent().addClass('lazy-parent');
+    beforeLoad: function (element) {
+      element.parent().addClass("lazy-parent");
     },
     afterLoad: function (element) {
       // called after an element was successfully handled
@@ -210,7 +218,7 @@ $(function () {
         $("#portfolio-filters li").removeClass("filter-active"), $(this).addClass("filter-active"), certificationsIsotope.isotope({filter: $(this).data("filter")});
       });
       venobox.venobox({share: !1});
-      element.parent().removeClass('lazy-parent');
+      element.parent().removeClass("lazy-parent");
     }
   });
 
