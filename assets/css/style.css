@@ -900,6 +900,25 @@ section {
   opacity: 0.9;
 }
 
+.portfolio .projectsLink {
+  display: inline-block;
+  transition: .3s;
+  border: 2px solid var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 10px 0 30px;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.portfolio .projectsLink:hover {
+  background-color: var(--primary-color);
+  text-decoration: none;
+  color: var(--background-color);
+}
+
+/* Lazy Loading */
+
 .lazy-parent {
   background-image: url('../../assets/img/loading.gif');
   background-repeat: no-repeat;
