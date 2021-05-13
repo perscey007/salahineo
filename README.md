@@ -11,10 +11,10 @@
 
 ### :chart_with_downwards_trend: Roadmap
 
-- :100: &nbsp; I have **learned**: &nbsp; :point_right: &nbsp; **HTML** | **CSS** | **JavaScript** | **Bootstrap** | **jQuery** | **SCSS** | **React JS** | **Pug JS** | **PHP** | **MySQL**
+- :100: &nbsp; I have **learned**: &nbsp; :point_right: &nbsp; **HTML** | **CSS** | **JavaScript** | **Bootstrap** | **jQuery** | **SCSS** | **React JS** | **Material-UI** | **PHP** | **MySQL**
 - 🌐 &nbsp; I'm currently **learning**: &nbsp; :point_right: &nbsp; **Vue JS** | **Laravel**
 - 💻 &nbsp; I **intend to** learn: &nbsp; :point_right: &nbsp;  **Node JS** | **Mongo DB**
-- :sparkles: &nbsp; Additional **skills**: &nbsp; :point_right: &nbsp; **Command-Line & Linux OS** | **Git & Github** | **GulpJS**
+- :sparkles: &nbsp; Additional **skills**: &nbsp; :point_right: &nbsp; **Command-Line & Linux OS** | **Git & Github** | **GulpJS** | **Pug JS** 
 
 ### :trophy: Github Stats
 
