@@ -917,6 +917,12 @@ section {
   color: var(--background-color);
 }
 
+.portfolio .projectsLink i {
+  font-size: 18px;
+  position: relative;
+  top: 2px;
+}
+
 /* Lazy Loading */
 
 .lazy-parent {
