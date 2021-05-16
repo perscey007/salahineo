@@ -921,6 +921,7 @@ section {
   font-size: 18px;
   position: relative;
   top: 2px;
+  margin-right: 3px;
 }
 
 /* Lazy Loading */
@@ -1080,8 +1081,9 @@ section {
   position: fixed;
   top: 15px;
   right: 15px;
-  z-index: 999;
+  z-index: 9999;
   display: none;
+  margin-left: 15px;
 }
 
 /* End Contact */

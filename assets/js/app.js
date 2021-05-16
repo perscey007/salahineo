@@ -141,34 +141,47 @@ $(function () {
   let alertContainerJQ = $(".form-alert");
   let formAlert;
   // Form Submit Button Listener
-  formSubmit.addEventListener("click", formValidattion);
+  formSubmit.addEventListener("click", formValidation);
+
+  // Clicked Submit Button Counter
+  let i = 0;
 
   // Form Validation
-  function formValidattion(e) {
-    // Check Empty Fields
-    if (
-      empty(formName.value) ||
-      empty(formEmail.value) ||
-      empty(formSubject.value) ||
-      empty(formMessage.value)
-    ) {
-      e.preventDefault();
-      setAlert("danger", "Error", "All Fields Are Required");
+  function formValidation(e) {
+    // Stop Form Loading
+    e.preventDefault();
+    if (i !== 0) {
+      // Set Warning Alert
+      setAlert("warning", "Warning", "You already sent a message. To send another one, please refresh the page");
+      // Show Alert
+      alertContainer.innerHTML = formAlert;
+      alertContainerJQ.fadeIn();
+    } else {
+      // Check Empty Fields
+      if (
+        empty(formName.value) ||
+        empty(formEmail.value) ||
+        empty(formSubject.value) ||
+        empty(formMessage.value)
+      ) {
+        setAlert("danger", "Error", "All Fields Are Required");
+      }
+      // Check Email Contain '@' Symbol
+      else if (!isEmail(formEmail.value)) {
+        setAlert("danger", "Error", "Enter a correct email");
+      }
+      // No Errors
+      else {
+        // Increase Button Submitted Counter
+        i++;
+        // Send Form Values
+        $("#contact-form").ajaxForm();
+        setAlert("success", "Success", "Your message has been sent");
+      }
+      // Show Alert
+      alertContainer.innerHTML = formAlert;
+      alertContainerJQ.fadeIn();
     }
-    // Check Email Contain '@' Symbol
-    else if (!isEmail(formEmail.value)) {
-      e.preventDefault();
-      setAlert("danger", "Error", "Enter a correct email");
-    }
-    // No Errors
-    else {
-      // Send Form Values
-      $("#contact-form").ajaxForm();
-      setAlert("success", "Success", "Your message has been sent");
-    }
-    // Show Alert
-    alertContainer.innerHTML = formAlert;
-    alertContainerJQ.fadeIn();
   }
 
   // Check Email Validation Function
