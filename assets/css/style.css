@@ -584,17 +584,29 @@ section {
 }
 
 .skills .progress .skill {
-  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 2px;
   margin: 0 0 6px 0;
   text-transform: uppercase;
-  display: block;
   font-weight: 600;
   font-family: Poppins, sans-serif;
-  color: var(--header-main-color)
+  color: var(--header-main-color);
+  font-size: 0.8rem;
+}
+
+.skills .progress .skill .name {
+  display: flex;
+  align-items: center;
+}
+
+.skills .progress .skill svg {
+  margin-right: 5px;
+  width: 14px;
 }
 
 .skills .progress .skill .val {
-  float: right;
   font-style: normal
 }
 
@@ -937,7 +949,7 @@ section {
   display: none;
 }
 
-  /* End Portfolio & Certifications */
+/* End Portfolio & Certifications */
 
 /* Start Contact */
 
