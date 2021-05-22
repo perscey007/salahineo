@@ -42,7 +42,7 @@
 
 <div>
   <img src="https://img.shields.io/badge/-Laravel-FF2D20?style=flat&logo=laravel&logoColor=ffffff"/>
-  <img src="https://img.shields.io/badge/-Node--JS-339933?style=flat&logo=node-dot-js&logoColor=ffffff"/>
+  <img src="https://img.shields.io/badge/-Node%20JS-339933?style=flat&logo=node-dot-js&logoColor=ffffff"/>
   <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=ffffff"/>
 </div>
 
