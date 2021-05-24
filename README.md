@@ -38,7 +38,7 @@
 </div>
 
 
-##### I **intend to** learn: 
+#### I **intend to** learn: 
 
 <div>
   <img src="https://img.shields.io/badge/-Laravel-FF2D20?style=flat&logo=laravel&logoColor=ffffff"/>
@@ -46,7 +46,7 @@
   <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=ffffff"/>
 </div>
 
-##### Additional **skills**:
+#### Additional **skills**:
 
 <div>
   <img src="https://img.shields.io/badge/-Gulp--JS-CF4647?style=flat&logo=gulp&logoColor=ffffff"/>
