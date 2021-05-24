@@ -13,7 +13,7 @@
 
 ### :chart_with_downwards_trend: Roadmap
 
-##### I have **learned**: 
+#### I have **learned**: 
 
 <div>
   <img src="https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=ffffff"/>
@@ -30,7 +30,7 @@
   <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=ffffff"/>
 </div>
   
-##### I'm currently **learning**:
+#### I'm currently **learning**:
 
 <div>
   <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=ffffff"/>
