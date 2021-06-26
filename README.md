@@ -26,6 +26,7 @@
   <img src="https://img.shields.io/badge/-React%20JS-61DAFB?style=flat&logo=react&logoColor=222222"/>
   <img src="https://img.shields.io/badge/-Redux-764ABC?style=flat&logo=redux&logoColor=ffffff"/>
   <img src="https://img.shields.io/badge/-Material--UI-0081CB?style=flat&logo=material-ui&logoColor=ffffff"/>
+  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=ffffff"/>
   <img src="https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=ffffff"/>
   <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=ffffff"/>
 </div>
@@ -33,8 +34,9 @@
 #### I'm currently **learning**:
 
 <div>
-  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=ffffff"/>
-  <img src="https://img.shields.io/badge/-Vue%20JS-4FC08D?style=flat&logo=vuedotjs&logoColor=ffffff"/>
+  <img src="https://img.shields.io/badge/-Next%20JS-000000?style=flat&logo=nextdotjs&logoColor=ffffff"/>
+  <img src="https://img.shields.io/badge/-Webpack-101619?style=flat&logo=webpack&logoColor=8DD6F9"/>
+  <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=ffffff"/>
 </div>
 
 
