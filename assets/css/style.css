@@ -702,6 +702,13 @@ section {
   font-weight: 600;
 }
 
+.resume .resumeLink i {
+  font-size: 18px;
+  position: relative;
+  top: 2px;
+  margin-right: 3px;
+}
+
 .resume .download-resume {
   display: block;
   width: 220px;
