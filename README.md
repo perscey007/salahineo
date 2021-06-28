@@ -68,6 +68,10 @@
 
 ![Salahineo's Github Streak](https://github-readme-streak-stats.herokuapp.com/?user=salahineo&hide_border=true&theme=tokyonight)
 
+### :thinking: Codewars Stats
+
+<a href="https://www.codewars.com/users/salahineo"><img src="https://www.codewars.com/users/salahineo/badges/large"/></a>
+
 ---
 
 ### 📫 Contact
