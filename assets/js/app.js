@@ -175,8 +175,13 @@ $(function () {
         // Increase Button Submitted Counter
         i++;
         // Send Form Values
-        $("#contact-form").ajaxForm();
+        let data = $("#contact-form").serialize();
+        $.post("https://salahineo.000webhostapp.com/contact.php", data);
         setAlert("success", "Success", "Your message has been sent");
+        // Clear Console
+        setTimeout(() => {
+          console.clear();
+        }, 5000);
       }
       // Show Alert
       alertContainer.innerHTML = formAlert;
@@ -241,4 +246,8 @@ $(function () {
   let currentDate = new Date();
   document.getElementById("footer-copyright-year").innerHTML = String(currentDate.getFullYear());
   document.getElementById("learning_journey_current_year").innerHTML = String(currentDate.getFullYear());
+  // Clear Console
+  setTimeout(() => {
+    console.clear();
+  }, 5000);
 });
