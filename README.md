@@ -70,7 +70,7 @@
 
 ### :stopwatch: Wakatime Stats
 
-[![Salahineo's Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=salahineo&langs_count=40&layout=compact&hide_border=true&theme=tokyonight)](https://wakatime.com/@salahineo)
+[![Salahineo's Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=salahineo&langs_count=40&hide=Other&layout=compact&hide_border=true&theme=tokyonight)](https://wakatime.com/@salahineo)
 
 
 ### :thinking: Codewars Stats
