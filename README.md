@@ -68,6 +68,11 @@
 
 ![Salahineo's Github Streak](https://github-readme-streak-stats.herokuapp.com/?user=salahineo&hide_border=true&theme=tokyonight)
 
+### :stopwatch: Wakatime Stats
+
+[![Salahineo's Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=salahineo&langs_count=40&layout=compact&hide_border=true&theme=tokyonight)](https://wakatime.com/@salahineo)
+
+
 ### :thinking: Codewars Stats
 
 <a href="https://www.codewars.com/users/salahineo"><img src="https://www.codewars.com/users/salahineo/badges/large"/></a>
