@@ -62,6 +62,8 @@
 
 ### :trophy: Github Stats
 
+[![Salahineo's GitHub Badges](https://github-profile-trophy.vercel.app/?username=salahineo&theme=onedark&no-frame=true&no-bg=true&margin-w=10&title=Stars,Commits,Followers,Repositories)](https://github.com/ryo-ma/github-profile-trophy)
+
 ![Salahineo's Github Stats](https://github-readme-stats.vercel.app/api?username=salahineo&include_all_commits=true&hide=contribs,prs&show_icons=true&hide_border=true&count_private=true&theme=tokyonight)
 
 ![Salahineo's Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=salahineo&hide=HTML&langs_count=10&layout=compact&hide_border=true&theme=tokyonight)
